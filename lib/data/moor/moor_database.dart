@@ -7,6 +7,8 @@ import 'dart:io';
 
 part 'moor_database.g.dart';
 
+
+// flutter packages pub run build_runner build
 class GitUsersTable extends Table {
   IntColumn get id => integer().autoIncrement()();
 
